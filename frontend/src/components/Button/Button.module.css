@@ -1,0 +1,25 @@
+.button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.primary {
+  background: var(--color-primary, #22c55e);
+  color: #04130a;
+}
+
+.secondary {
+  background: #eef1f6;
+  color: #0f1729;
+}
+
+.sm { font-size: 14px; }
+.md { font-size: 16px; }
+.lg { font-size: 18px; }
+
+.disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}

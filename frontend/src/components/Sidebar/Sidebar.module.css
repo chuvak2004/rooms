@@ -1,0 +1,113 @@
+.aside {
+  background: #0b1220;
+  color: #cbd5e1;
+  display: flex;
+  flex-direction: column;
+  padding: 22px 16px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 8px 22px;
+}
+
+.mark {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #22c55e, #15803d);
+  color: #04130a;
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.title {
+  color: #fff;
+  font-weight: 800;
+  font-size: 17px;
+  letter-spacing: -0.3px;
+}
+
+.tag {
+  font-size: 11px;
+  color: #7c899e;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 11px 12px;
+  border: none;
+  background: transparent;
+  color: #94a3b8;
+  border-radius: 12px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  transition: background 0.15s, color 0.15s;
+}
+
+.link:hover {
+  background: #15203a;
+  color: #e2e8f0;
+}
+
+.linkActive {
+  background: #15203a;
+  color: #fff;
+  box-shadow: inset 3px 0 0 #22c55e;
+}
+
+.linkIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 14px;
+  background: #111a2e;
+}
+
+.avatar {
+  width: 38px;
+  height: 38px;
+  border-radius: 999px;
+  background: #22c55e;
+  color: #04130a;
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+}
+
+.whoName {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.whoRole {
+  font-size: 11px;
+  color: #22c55e;
+}
