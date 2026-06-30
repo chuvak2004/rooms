@@ -34,7 +34,7 @@ interface Reservation {
 }
 
 const ENDPOINT = import.meta.env.PROD
-  ? "https://is-aplication.onrender.com/api"
+  ? "https://rooms-bu6p.onrender.com/api"
   : "http://localhost/api";
 
 function App() {
